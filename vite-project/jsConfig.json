@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "Components/*": ["./src/components/*"],
+        "Images/*": ["./src/assets/images/*"],
+        "Pages/*": ["./src/pages/*"],
+        "Cards/*": ["./src/components/card/*"],
+        "Layout/*": ["./src/layout/*"],
+        "Services/*": ["./src/services/*"]
+      }
+    }
+  }
