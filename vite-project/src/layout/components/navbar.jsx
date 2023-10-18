@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../../../assets/images/logo.svg"
+import logo from "Images/logo.svg"
 export default function Navbar() {
 
     let navbarMenu = ["Home", "Our Services", "Projects", "Blog", "About"]

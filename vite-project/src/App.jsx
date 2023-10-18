@@ -1,11 +1,13 @@
 
-import Layout from './pages/homePage'
+import Layout from './layout'
+import HomePage from './pages/homePage'
+
 
 function App() {
   return (
-    <div  >
-     <Layout />
-    </div>
+    <Layout>
+      <HomePage />
+    </Layout>
   )
 }
 

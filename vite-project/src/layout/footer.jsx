@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../../../../assets/images/whiteLogo.svg"
+import logo from "Images/whiteLogo.svg"
 import vimeo from "Images/footer/vimeo.svg"
 import linkedin from "Images/footer/linkedin.svg"
 import dribble from "Images/footer/dribble.svg"
