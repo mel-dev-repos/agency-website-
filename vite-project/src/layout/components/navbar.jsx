@@ -5,7 +5,8 @@ export default function Navbar() {
     let navbarMenu = ["Home", "Our Services", "Projects", "Blog", "About"]
 
     return (
-        <ul className='flex py-5 px-40 justify-between items-center'>
+        <div className='bg-homePageHeader'>
+        <ul className='flex py-5 container mx-auto  justify-between items-center'>
               <img alt='logo'  src={logo}/>
             <div className='gap-4 flex  '>
                 {navbarMenu.map((menuItem) => {
@@ -17,5 +18,6 @@ export default function Navbar() {
             </div>
           
         </ul>
+        </div>
     )
 }
